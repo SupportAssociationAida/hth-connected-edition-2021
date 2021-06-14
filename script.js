@@ -1,4 +1,4 @@
-/// <reference path="../node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
+/// <reference path="node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
 
 // You can write your WorkAdventure script here, if any.
 // The "WA" global object is available from anywhere.
@@ -7,10 +7,10 @@ console.log('Script started successfully !');
 WA.sendChatMessage("Bienvenue sur WorkAdventures, n'hésitez pas à soliciter le staff pour toutes vos questions. Nous esperons que vous allez passer un super moment en notre compagnie.\n Vous pouvez fermer cette fenêtre.", "L'équipe HTH"); 
 
 
-let obj_Popup_sport1: any; 
-let obj_Popup_sport2: any; 
-let obj_Popup_rose: any; 
-let obj_son_piano : any;
+let obj_Popup_sport1; 
+let obj_Popup_sport2; 
+let obj_Popup_rose; 
+let obj_son_piano;
 
 
 obj_Popup_sport1 = WA.onEnterZone('sport1', () => {
