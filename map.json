@@ -38,6 +38,12 @@
          "id":40,
          "name":"zone_sport2",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"sport2"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -50,6 +56,12 @@
          "id":41,
          "name":"zone_solo_rose",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"solo_rose"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -62,6 +74,12 @@
          "id":42,
          "name":"zone_solo_moutarde",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"solo_moutarde"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -74,6 +92,12 @@
          "id":43,
          "name":"zone_solo_blanc",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"solo_blanc"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -86,6 +110,12 @@
          "id":44,
          "name":"zone_solo_pervenche",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"solo_pervenche"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -98,6 +128,12 @@
          "id":45,
          "name":"zone_solo_violet",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"solo_violet"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -110,6 +146,12 @@
          "id":46,
          "name":"zone_solo_vert",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"solo_vert"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -122,6 +164,12 @@
          "id":47,
          "name":"zone_jeux",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"jeux"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -134,6 +182,12 @@
          "id":48,
          "name":"zone_scene",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"scene"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -146,6 +200,12 @@
          "id":49,
          "name":"zone_musique",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"musique"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -158,6 +218,12 @@
          "id":51,
          "name":"zone_art2",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"art2"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -170,6 +236,12 @@
          "id":52,
          "name":"zone_discussion",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"discussion"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -182,6 +254,12 @@
          "id":53,
          "name":"zone_concert",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"concert"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -194,6 +272,12 @@
          "id":54,
          "name":"zone_jardin",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"jardin"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
@@ -206,6 +290,12 @@
          "id":50,
          "name":"zone_art1",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"art1"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
