@@ -9,7 +9,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -353,7 +353,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -381,7 +381,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -409,7 +409,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -437,7 +437,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -465,7 +465,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -493,7 +493,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -521,7 +521,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -549,7 +549,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -577,7 +577,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -605,7 +605,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -633,7 +633,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -661,7 +661,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -689,7 +689,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -717,7 +717,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -745,7 +745,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -773,7 +773,7 @@
                  "value":"Cliquez sur ESPACE pour ouvrir le chat"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -785,7 +785,7 @@
          "name":"Sol",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -797,7 +797,7 @@
          "name":"murs",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -809,7 +809,7 @@
          "name":"porte top",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -821,7 +821,7 @@
          "name":"Barrieres",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -833,7 +833,7 @@
          "name":"Personnages",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -845,7 +845,7 @@
          "name":"Rideau",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -857,7 +857,7 @@
          "name":"objet_down",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -869,7 +869,7 @@
          "name":"Decor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -881,7 +881,7 @@
          "name":"Meubles",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -893,7 +893,7 @@
          "name":"Objet_top",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -905,7 +905,7 @@
          "name":"Objet_Top(2)",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":74,
          "x":0,
          "y":0
@@ -925,6 +925,160 @@
                  "width":80.67,
                  "x":1205.33333333333,
                  "y":1745.33333333333
+                }, 
+                {
+                 "height":81.33,
+                 "id":24,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":1531.665,
+                 "y":1753.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":25,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":1847.665,
+                 "y":1751.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":26,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":2167.665,
+                 "y":1755.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":28,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":2097.665,
+                 "y":1367.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":29,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":2105.665,
+                 "y":1081.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":30,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":2143.665,
+                 "y":829.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":31,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":2145.665,
+                 "y":539.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":32,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":2137.665,
+                 "y":251.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":33,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":1789.665,
+                 "y":863.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":34,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":1081.665,
+                 "y":883.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":35,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":1181.665,
+                 "y":537.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":36,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":1173.665,
+                 "y":247.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":37,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":479.665,
+                 "y":825.335
+                }, 
+                {
+                 "height":81.33,
+                 "id":38,
+                 "name":"popup_sport1",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80.67,
+                 "x":1525.665,
+                 "y":1491.335
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -933,7 +1087,7 @@
          "y":0
         }],
  "nextlayerid":55,
- "nextobjectid":12,
+ "nextobjectid":39,
  "orientation":"orthogonal",
  "properties":[
         {
