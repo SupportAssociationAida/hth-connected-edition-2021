@@ -237,12 +237,12 @@ let obj_Popup_vert = WA.onEnterZone('solo_vert', () => {
 }
 
 
-let obj_son_piano = WA.onEnterZone('piano', () => {
-    
-var son_piano = WA.loadSound("sons/yiruma.mp3").play(config);
+var mySound = WA.loadSound("sons/yiruma.mp3"); 
 
+WA.onEnterZone('piano', () => {
+  mySound.play(config);
 })
   
 WA.onLeaveZone('piano', () => {
-obj_son_piano.stop(); 
+  mySound.stop(); 
 });
