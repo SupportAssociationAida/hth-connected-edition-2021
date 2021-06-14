@@ -157,7 +157,7 @@ let obj_Popup_vert = WA.onEnterZone('solo_vert', () => {
     obj_Popup_scene.close();
   });
 
-  let obj_Popup_scene = WA.onEnterZone('zone_musique', () => {
+  let obj_Popup_musique = WA.onEnterZone('zone_musique', () => {
     WA.openPopup('popup_scene', 'Bienvenue dans la salle Beatles !', [{
         label: "Merci !",
         className: "primary",
@@ -169,7 +169,7 @@ let obj_Popup_vert = WA.onEnterZone('solo_vert', () => {
   })
   
   WA.onLeaveZone('zone_musique', () => {
-    obj_Popup_scene.close();
+    obj_Popup_musique.close();
   });
 
 
