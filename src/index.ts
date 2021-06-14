@@ -45,7 +45,7 @@ obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
   });
   
 
-  obj_Popup_rose = WA.onEnterZone('zone_solo_rose', () => {
+  obj_Popup_rose = WA.onEnterZone('solo_rose', () => {
     WA.openPopup('popup_solo_rose', 'Bienvenue dans la salle solo de M.Rose !', [{
         label: "Got it!",
         className: "primary",
@@ -73,7 +73,7 @@ obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
 }
 
 
-obj_son_piano = WA.onEnterZone('zone_piano', () => {
+obj_son_piano = WA.onEnterZone('piano', () => {
     
     var son_piano = WA.loadSound("sons/yiruma.mp3").play(config);
 

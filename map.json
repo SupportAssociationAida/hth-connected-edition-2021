@@ -290,6 +290,12 @@
          "id":55,
          "name":"zone_piano",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"piano"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":74,
