@@ -7,19 +7,23 @@ console.log('Script started successfully');
 WA.sendChatMessage("Bienvenue sur WorkAdventures, n'hésitez pas à soliciter le staff pour toutes vos questions. Nous esperons que vous allez passer un super moment en notre compagnie.\n Vous pouvez fermer cette fenêtre.", "L'équipe HTH"); 
 
 
-let Popup_sport1; 
+let obj_Popup_sport1; 
+let obj_Popup_sport2; 
+
 
 WA.onEnterZone('sport1', () => {
-  WA.openPopup('popup', 'Bienvenu dans la salle de sport!', [{
+  WA.openPopup('popup_sport1', 'Bienvenue dans la salle de sport !', [{
       label: "Got it!",
       className: "primary",
-      callback: (Popup_sport1) => {
+      callback: (popup) => {
           // Close the popup when the "Close" button is pressed.
-          Popup_sport1.close();
+          popup.close();
       }
   }])
 })
 
 WA.onLeaveZone('sport1', () => {
-    Popup_sport1.close();
+    obj_Popup_sport1.close();
 });
+
+
