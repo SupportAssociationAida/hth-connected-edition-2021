@@ -88,7 +88,7 @@ let obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
   });
 
   
-  let obj_Popup_violet = WA.onEnterZone('solo_pervenche', () => {
+  let obj_Popup_pervenche = WA.onEnterZone('solo_pervenche', () => {
     WA.openPopup('popup_solo_pervenche', 'Bienvenue dans la salle solo de M.Pervenche !', [{
         label: "Merci !",
         className: "primary",
