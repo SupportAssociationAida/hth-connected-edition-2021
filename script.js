@@ -10,6 +10,10 @@ WA.sendChatMessage("Bienvenue sur WorkAdventures, n'hésitez pas à soliciter le
 let obj_Popup_sport1; 
 let obj_Popup_sport2; 
 let obj_Popup_rose; 
+let obj_Popup_moutarde; 
+let obj_Popup_blanc; 
+let obj_Popup_pervenche; 
+let obj_Popup_violet; 
 let obj_son_piano;
 
 
@@ -60,7 +64,7 @@ obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
     obj_Popup_rose.close();
   });
   
-  obj_Popup_rose = WA.onEnterZone('solo_moutarde', () => {
+  obj_Popup_moutarde = WA.onEnterZone('solo_moutarde', () => {
     WA.openPopup('popup_solo_moutarde', 'Bienvenue dans la salle solo de M.Moutarde !', [{
         label: "Merci !",
         className: "primary",
@@ -72,10 +76,10 @@ obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
   })
   
   WA.onLeaveZone('solo_moutarde', () => {
-    obj_Popup_rose.close();
+    obj_Popup_moutarde.close();
   });
 
-  obj_Popup_rose = WA.onEnterZone('solo_blanc', () => {
+  obj_Popup_blanc = WA.onEnterZone('solo_blanc', () => {
     WA.openPopup('popup_solo_blanc', 'Bienvenue dans la salle solo de M.LeBlanc !', [{
         label: "Merci !",
         className: "primary",
@@ -87,9 +91,147 @@ obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
   })
   
   WA.onLeaveZone('solo_blanc', () => {
-    obj_Popup_rose.close();
+    obj_Popup_blanc.close();
   });
 
+  
+  obj_Popup_violet = WA.onEnterZone('solo_pervenche', () => {
+    WA.openPopup('popup_solo_pervenche', 'Bienvenue dans la salle solo de M.Pervenche !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('solo_pervenche', () => {
+    obj_Popup_violet.close();
+  });
+
+  obj_Popup_violet = WA.onEnterZone('solo_violet', () => {
+    WA.openPopup('popup_solo_violet', 'Bienvenue dans la salle solo de M.Violet !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('solo_violet', () => {
+    obj_Popup_violet.close();
+  });
+
+
+let obj_Popup_vert = WA.onEnterZone('solo_vert', () => {
+    WA.openPopup('popup_solo_vert', 'Bienvenue dans la salle solo de M.Olive !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('solo_vert', () => {
+    obj_Popup_vert.close();
+  });
+
+
+  let obj_Popup_scene = WA.onEnterZone('zone_scene', () => {
+    WA.openPopup('popup_scene', 'Bienvenue dans la salle Molière !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('zone_scene', () => {
+    obj_Popup_scene.close();
+  });
+
+  let obj_Popup_scene = WA.onEnterZone('zone_musique', () => {
+    WA.openPopup('popup_scene', 'Bienvenue dans la salle Beatles !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('zone_musique', () => {
+    obj_Popup_scene.close();
+  });
+
+
+  let obj_Popup_art1 = WA.onEnterZone('zone_art1', () => {
+    WA.openPopup('popup_art1', 'Bienvenue dans la salle Picasso !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('zone_art1', () => {
+    obj_Popup_art1.close();
+  });
+
+  let obj_Popup_art2 = WA.onEnterZone('zone_art2', () => {
+    WA.openPopup('popup_art2', 'Bienvenue dans la salle Monet !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('zone_art2', () => {
+    obj_Popup_art1.close();
+  });
+
+  let obj_Popup_jeux = WA.onEnterZone('zone_jeux', () => {
+    WA.openPopup('popup_jeux', 'Bienvenue dans la salle Monte Carlo !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('zone_jeux', () => {
+    obj_Popup_jeux.close();
+  });
+
+  let obj_Popup_discussion = WA.onEnterZone('zone_discussion', () => {
+    WA.openPopup('popup_discussion', 'Bienvenue dans la salle Bali !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('zone_discussion', () => {
+    obj_Popup_discussion.close();
+  });
 
  var config = {
     volume : 0.5,
