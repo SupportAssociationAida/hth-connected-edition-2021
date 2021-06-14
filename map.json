@@ -929,7 +929,7 @@
                 {
                  "height":81.33,
                  "id":24,
-                 "name":"popup_sport1",
+                 "name":"popup_sport2",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -940,7 +940,7 @@
                 {
                  "height":81.33,
                  "id":25,
-                 "name":"popup_sport1",
+                 "name":"popup_art1",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -951,7 +951,7 @@
                 {
                  "height":81.33,
                  "id":26,
-                 "name":"popup_sport1",
+                 "name":"popup_art2",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -962,7 +962,7 @@
                 {
                  "height":81.33,
                  "id":28,
-                 "name":"popup_sport1",
+                 "name":"popup_musique",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -973,7 +973,7 @@
                 {
                  "height":81.33,
                  "id":29,
-                 "name":"popup_sport1",
+                 "name":"popup_scene",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -984,7 +984,7 @@
                 {
                  "height":81.33,
                  "id":30,
-                 "name":"popup_sport1",
+                 "name":"popup_solo_vert",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -995,7 +995,7 @@
                 {
                  "height":81.33,
                  "id":31,
-                 "name":"popup_sport1",
+                 "name":"popup_solo_violet",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1006,7 +1006,7 @@
                 {
                  "height":81.33,
                  "id":32,
-                 "name":"popup_sport1",
+                 "name":"popup_solo_pervenche",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1028,7 +1028,7 @@
                 {
                  "height":81.33,
                  "id":34,
-                 "name":"popup_sport1",
+                 "name":"popup_solo_blanc",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1039,7 +1039,7 @@
                 {
                  "height":81.33,
                  "id":35,
-                 "name":"popup_sport1",
+                 "name":"popup_solo_moutarde",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1050,7 +1050,7 @@
                 {
                  "height":81.33,
                  "id":36,
-                 "name":"popup_sport1",
+                 "name":"popup_solo_rose",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1061,7 +1061,7 @@
                 {
                  "height":81.33,
                  "id":37,
-                 "name":"popup_sport1",
+                 "name":"popup_concert",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1072,7 +1072,7 @@
                 {
                  "height":81.33,
                  "id":38,
-                 "name":"popup_sport1",
+                 "name":"popup_discussion",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1087,7 +1087,7 @@
          "y":0
         }],
  "nextlayerid":55,
- "nextobjectid":39,
+ "nextobjectid":41,
  "orientation":"orthogonal",
  "properties":[
         {
