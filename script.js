@@ -3,29 +3,23 @@
 // You can write your WorkAdventure script here, if any.
 // The "WA" global object is available from anywhere.
 
-console.log('Script started successfully ! ');
+console.log('Script started successfully');
+WA.sendChatMessage('Hello world', 'Mr Robot');
 
-WA.sendChatMessage("Bienvenue sur WorkAdventures, n'hésitez pas à soliciter le staff pour toutes vos questions. Nous esperons que vous allez passer un super moment en notre compagnie.\n Vous pouvez fermer cette fenêtre.", "L'équipe HTH");
 
+let Popup_sport1; 
 
-let helloWorldPopup: any;
+WA.onEnterZone('sport1', () => {
+  WA.openPopup('popup', 'Bienvenu dans la salle de sport!', [{
+      label: "Got it!",
+      className: "primary",
+      callback: (Popup_sport1) => {
+          // Close the popup when the "Close" button is pressed.
+          Popup_sport1.close();
+      }
+  }])
+})
 
-// Open the popup when we enter a given zone
-helloWorldPopup = WA.onEnterZone('sport1', () => {
-    WA.openPopup("popup_sport1", 'Bienvenue dans la salle Teddy Riner !', [{
-        label: "Close",
-        className: "primary",
-        callback: (popup) => {
-            // Close the popup when the "Close" button is pressed.
-            popup.close();
-        }
-    });
-}]);
-
-// Close the popup when we leave the zone.
 WA.onLeaveZone('sport1', () => {
-    helloWorldPopup.close();
+    Popup_sport1.close();
 });
-
-
-
