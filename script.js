@@ -15,7 +15,7 @@ let obj_son_piano;
 
 obj_Popup_sport1 = WA.onEnterZone('sport1', () => {
   WA.openPopup('popup_sport1', 'Bienvenue dans la salle Teddy Riner !', [{
-      label: "Got it!",
+      label: "Merci !",
       className: "primary",
       callback: (popup) => {
           // Close the popup when the "Close" button is pressed.
@@ -31,7 +31,7 @@ WA.onLeaveZone('sport1', () => {
 
 obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
     WA.openPopup('popup_sport2', 'Bienvenue dans la salle Benjamin Pavard !', [{
-        label: "Got it!",
+        label: "Merci !",
         className: "primary",
         callback: (popup) => {
             // Close the popup when the "Close" button is pressed.
@@ -47,7 +47,7 @@ obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
 
   obj_Popup_rose = WA.onEnterZone('solo_rose', () => {
     WA.openPopup('popup_solo_rose', 'Bienvenue dans la salle solo de M.Rose !', [{
-        label: "Got it!",
+        label: "Merci !",
         className: "primary",
         callback: (popup) => {
             // Close the popup when the "Close" button is pressed.
@@ -60,6 +60,35 @@ obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
     obj_Popup_rose.close();
   });
   
+  obj_Popup_rose = WA.onEnterZone('solo_moutarde', () => {
+    WA.openPopup('popup_solo_moutarde', 'Bienvenue dans la salle solo de M.Moutarde !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('solo_moutarde', () => {
+    obj_Popup_rose.close();
+  });
+
+  obj_Popup_rose = WA.onEnterZone('solo_blanc', () => {
+    WA.openPopup('popup_solo_blanc', 'Bienvenue dans la salle solo de M.LeBlanc !', [{
+        label: "Merci !",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }])
+  })
+  
+  WA.onLeaveZone('solo_blanc', () => {
+    obj_Popup_rose.close();
+  });
 
 
  var config = {
@@ -79,6 +108,6 @@ var son_piano = WA.loadSound("sons/yiruma.mp3").play(config);
 
 })
   
-WA.onLeaveZone('sport2', () => {
+WA.onLeaveZone('piano', () => {
 son_piano.stop(); 
 });
