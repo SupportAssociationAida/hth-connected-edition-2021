@@ -56,7 +56,7 @@ obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
     }])
   })
   
-  WA.onLeaveZone('sport2', () => {
+  WA.onLeaveZone('solo_rose', () => {
     obj_Popup_rose.close();
   });
   
@@ -73,12 +73,12 @@ obj_Popup_sport2 = WA.onEnterZone('sport2', () => {
 }
 
 
-obj_son_piano = WA.onEnterZone('piano', () => {
+// obj_son_piano = WA.onEnterZone('piano', () => {
     
-    var son_piano = WA.loadSound("sons/yiruma.mp3").play(config);
+//     var son_piano = WA.loadSound("sons/yiruma.mp3").play(config);
 
-  })
+//   })
   
-  WA.onLeaveZone('sport2', () => {
-    son_piano.stop(); 
-  });
+//   WA.onLeaveZone('sport2', () => {
+//     son_piano.stop(); 
+//   });
