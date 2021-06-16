@@ -45,9 +45,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"map.json",
+                 "name":"exitUrl",
                  "type":"string",
-                 "value":""
+                 "value":"map.json"
                 }],
          "type":"tilelayer",
          "visible":true,
