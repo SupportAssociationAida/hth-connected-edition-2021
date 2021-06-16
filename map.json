@@ -128,6 +128,12 @@
          "id":18,
          "name":"exit_Teddy",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"sport1.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":50,
@@ -140,6 +146,12 @@
          "id":19,
          "name":"exit_Pavard",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"sport2.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":50,
@@ -152,6 +164,12 @@
          "id":20,
          "name":"exit_Moli\u00e8re",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"scene.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":50,
@@ -164,6 +182,12 @@
          "id":21,
          "name":"exit_Beatles",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"musique.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":50,
@@ -176,6 +200,12 @@
          "id":22,
          "name":"exit_Picasso",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"art1.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":50,
@@ -188,6 +218,12 @@
          "id":23,
          "name":"exit_Monet",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"art2.json"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":50,
