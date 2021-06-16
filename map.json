@@ -292,6 +292,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"concert"
+                }, 
+                {
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
@@ -314,6 +319,11 @@
          "name":"Jitsi_jardin",
          "opacity":1,
          "properties":[
+                {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"jardin"
+                }, 
                 {
                  "name":"jitsiTrigger",
                  "type":"string",
