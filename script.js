@@ -6,9 +6,14 @@
 console.log('Script started successfully !');
 WA.sendChatMessage("Bienvenue sur WorkAdventures, n'hésitez pas à soliciter le staff pour toutes vos questions. Nous esperons que vous allez passer un super moment en notre compagnie.\n Vous pouvez fermer cette fenêtre.", "L'équipe HTH"); 
 
-var mySound = WA.loadSound("sons/yiruma.mp3"); 
+var SoundPiano = WA.loadSound("sons/yiruma.mp3"); 
+var SoundMarche = WA.loadSound("sons/marche.mp3"); 
+var SoundForet = WA.loadSound("sons/foret.mp3"); 
+
+
+
  var config = {
-    volume : 0.5,
+    volume : 0.3,
     loop : false,
     rate : 1,
     detune : 1,
@@ -20,9 +25,26 @@ var mySound = WA.loadSound("sons/yiruma.mp3");
 
 
 WA.onEnterZone('piano', () => {
-  mySound.play(config);
+  SoundPiano.play(config);
 })
   
 WA.onLeaveZone('piano', () => {
-  mySound.stop(); 
+  SoundPiano.stop(); 
+});
+
+
+WA.onEnterZone('marche', () => {
+  SoundMarche.play(config);
+})
+  
+WA.onLeaveZone('marche', () => {
+  SoundMarche.stop(); 
+});
+
+WA.onEnterZone('foret', () => {
+  SoundForet.play(config);
+})
+  
+WA.onLeaveZone('foret', () => {
+  SoundForet.stop(); 
 });
