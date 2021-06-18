@@ -48,6 +48,12 @@
          "id":10,
          "name":"piano",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"piano"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":10,
