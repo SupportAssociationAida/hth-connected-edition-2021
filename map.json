@@ -276,7 +276,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"cachecache.json"
+                 "value":"\/@\/aaidaa\/chateau\/cachecache"
                 }],
          "type":"tilelayer",
          "visible":true,
