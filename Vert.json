@@ -52,7 +52,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.json"
+                 "value":"\/@\/aaidaa\/chateau\/hth"
                 }],
          "type":"tilelayer",
          "visible":true,

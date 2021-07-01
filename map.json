@@ -276,7 +276,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/aaidaa\/chateau\/art1"
+                 "value":"\/@\/aaidaa\/chateau\/cachecache"
                 }],
          "type":"tilelayer",
          "visible":true,
