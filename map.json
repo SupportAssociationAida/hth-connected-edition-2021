@@ -24,7 +24,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Vert.json"
+                 "value":"\/@\/aaidaa\/chateau\/vert"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -42,7 +42,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Pervenche.json"
+                 "value":"\/@\/aaidaa\/chateau\/pervenche"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -60,7 +60,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Blanc.json"
+                 "value":"\/@\/aaidaa\/chateau\/blanc"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -78,7 +78,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Violet.json"
+                 "value":"\/@\/aaidaa\/chateau\/violet"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -96,7 +96,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Moutarde.json"
+                 "value":"\/@\/aaidaa\/chateau\/moutarde"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -114,7 +114,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Rose.json"
+                 "value":"\/@\/aaidaa\/chateau\/rose"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -132,7 +132,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"sport1.json"
+                 "value":"\/@\/aaidaa\/chateau\/sport1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -150,7 +150,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"sport2.json"
+                 "value":"\/@\/aaidaa\/chateau\/sport2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -168,7 +168,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"scene.json"
+                 "value":"\/@\/aaidaa\/chateau\/scene"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -186,7 +186,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"musique.json"
+                 "value":"\/@\/aaidaa\/chateau\/musique"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -204,7 +204,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"art1.json"
+                 "value":"\/@\/aaidaa\/chateau\/art1"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -222,7 +222,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"art2.json"
+                 "value":"\/@\/aaidaa\/chateau\/art2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -240,7 +240,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"discussion.json"
+                 "value":"\/@\/aaidaa\/chateau\/discussion"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -258,7 +258,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"jeux.json"
+                 "value":"\/@\/aaidaa\/chateau\/jeux"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -276,7 +276,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/aaidaa\/chateau\/cachecache#entree"
+                 "value":"\/@\/aaidaa\/chateau\/art1"
                 }],
          "type":"tilelayer",
          "visible":true,
