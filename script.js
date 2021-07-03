@@ -9,11 +9,12 @@ WA.sendChatMessage("Bienvenue sur WorkAdventures, n'hésitez pas à soliciter le
 var SoundPiano = WA.loadSound("sons/yiruma.mp3"); 
 var SoundMarche = WA.loadSound("sons/marche.mp3"); 
 var SoundForet = WA.loadSound("sons/foret.mp3"); 
+var SoundConcert = WA.loadSound("sons/concert.mp3"); 
 
 
 
  var config = {
-    volume : 0.1,
+    volume : 0.02,
     loop : false,
     rate : 1,
     detune : 1,
@@ -47,4 +48,12 @@ WA.onEnterZone('foret', () => {
   
 WA.onLeaveZone('foret', () => {
   SoundForet.stop(); 
+});
+
+WA.onEnterZone('concert', () => {
+  SoundConcert.play(config);
+})
+  
+WA.onLeaveZone('concert', () => {
+  SoundConcert.stop(); 
 });
